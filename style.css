@@ -1,0 +1,179 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #800000; /* Maroon */
+  color: #fff;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 1.1rem;
+}
+
+/* Team Section */
+.team {
+  padding: 30px;
+  text-align: center;
+}
+
+.team h2 {
+  color: #800000;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.member {
+  background: #f9f9f9;
+  border: 2px solid #800000;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+}
+
+.member img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.member p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Presented To Section */
+.presented {
+  background: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-left: 6px solid #800000;
+}
+
+/* Main Content */
+main {
+  padding: 30px;
+}
+
+main h2 {
+  color: #800000;
+  margin-top: 30px;
+}
+
+main h3 {
+  color: #333;
+  margin-top: 20px;
+}
+
+main h4 {
+  color: #333;
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+  background-color: #800000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+#pup-logo {
+  display: block;
+  margin: 0 auto 15px auto;
+  width: 120px;
+  height: auto;
+}
+
+/* Preloader */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #800000;
+  font-family: Arial, sans-serif;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+/* Buttons Section */
+.buttons {
+  padding: 30px;
+  text-align: center;
+}
+
+.buttons h2 {
+  color: #800000;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #800000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+  background-color: #600000;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
