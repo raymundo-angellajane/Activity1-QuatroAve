@@ -1,6 +1,0 @@
-- [x] Create belmont.html with Belmont Report content
-- [x] Create helsinki.html with Helsinki content
-- [x] Create mit.html with MIT content
-- [x] Create dpa.html with DPA content
-- [x] Edit index.html to replace sections with buttons
-- [x] Edit style.css to add modern button styles with hover
