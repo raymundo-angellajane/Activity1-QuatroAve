@@ -1,0 +1,3 @@
+- [x] Update style.css to make header a flex container with space-between alignment for adding the Google Docs button on the right.
+- Add the Google Docs button link inside the header in index.html, styled with .btn class.
+- Test the page by opening index.html in browser to ensure the button is visible and functional.
